@@ -24,7 +24,7 @@ $(document).ready(function() {
     map.addLayer(layer);
 
     let customIcon = {
-      iconUrl:"img/map-marker.png",
+      iconUrl:"map-marker.png",
       iconSize:[57,67]
     }
     let myIcon = L.icon(customIcon);
