@@ -71,32 +71,32 @@ table{border-collapse:collapse;border-spacing:0}
 
 @font-face {
   font-family: 'Bebas';
-  src: url('../css/vendor/fonts/BebasNeue-Regular.woff') format('woff'),
-      url('../css/vendor/fonts/BebasNeue-Regular.woff2') format('woff2');
+  src: url('BebasNeue-Regular.woff') format('woff'),
+      url('BebasNeue-Regular.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avantgarde-demibold';
-  src: url('../css/vendor/fonts/AVGARDD_demibold.woff') format('woff'),
-      url('../css/vendor/fonts/AVGARDD_demibold.woff2') format('woff2');
+  src: url('AVGARDD_demibold.woff') format('woff'),
+      url('AVGARDD_demibold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Avantgarde-demibold-oblic';
-  src: url('../css/vendor/fonts/AVGARDDO_demiboldoblic.woff') format('woff'),
-  url('../css/vendor/fonts/AVGARDDO_demiboldoblic.woff2') format('woff2');
+  src: url('AVGARDDO_demiboldoblic.woff') format('woff'),
+  url('AVGARDDO_demiboldoblic.woff2') format('woff2');
   font-weight: bold;
   font-style: oblique;
 }
 
 @font-face {
   font-family: 'Avantgarde-regular';
-  src: url('../css/vendor/fonts/AVGARDN_regular.woff') format('woff'),
-      url('../css/vendor/fonts/AVGARDN_regular.woff2') format('woff2');
+  src: url('AVGARDN_regular.woff') format('woff'),
+      url('AVGARDN_regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -932,7 +932,7 @@ hr.enabled{
   display: block;
   width: 100%;
   height: 100%;
-  background-image: url('../img/background2.jpg');
+  background-image: url('background2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% auto;
