@@ -7,7 +7,7 @@ $(document).ready(function() {
 		image.onload = function(){ 
 	    	$('body').addClass('ak-loaded');
 	 	};
-	  	image.src    = "img/background.jpg";
+	  	image.src    = "background2.jpg";
 	})(new Image());
 
 
