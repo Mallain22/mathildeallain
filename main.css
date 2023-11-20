@@ -175,7 +175,7 @@ main{
   display: none;
 }  
 .home .content{
-  padding: 35px 50px;
+  padding: 35px 20px;
 }
 .home .content > div{
   z-index: 1;
