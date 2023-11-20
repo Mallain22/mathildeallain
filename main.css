@@ -634,14 +634,12 @@ h6, .zeta {
   font-size: max(4vw, 35px);
   line-height: 0.8;
   font-weight: 700;
-  letter-spacing: 0.1em; /* Utilisation de 'em' pour l'espacement */
-
 }
+
 .mega + h1:not(.mega){
   margin-left: 10px;
-  letter-spacing: 0.1em; /* Utilisation de 'em' pour l'espacement */
-
 }
+
 h2:after{
   content: '';
   display: block;
