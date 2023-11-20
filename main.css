@@ -1731,6 +1731,13 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
   .nav-previous{float: left;}
 }
 
+@media only screen and (max-width: 600px) {
+    .home .content {
+        max-width: 90%; /* Par exemple, utilisez un pourcentage pour la largeur maximale */
+        margin-left: 5px; /* Ajustement de la marge si nécessaire */
+    }
+}
+
 @media (max-width: 767px) {
   .portfolio-filter{
     position: relative;
