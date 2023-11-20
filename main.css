@@ -177,8 +177,8 @@ main{
 .home .content{
    padding: 35px 20px;
    max-width: 500px; /* Spécifiez la largeur maximale souhaitée */
-   margin-left: 20px; /* Centre le contenu horizontalement */
-   text-align: left;
+position: absolute; /* Position absolue pour l'élément .content */
+    left: 20px;
 }
 .home .content > div{
   z-index: 1;
