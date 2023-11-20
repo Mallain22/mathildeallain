@@ -176,7 +176,7 @@ main{
 }  
 .home .content{
    padding: 35px 20px;
-   max-width: 500px; /* Spécifiez la largeur maximale souhaitée */
+   max-width: 600px; /* Spécifiez la largeur maximale souhaitée */
 position: absolute; /* Position absolue pour l'élément .content */
     left: 70px;
 }
@@ -1733,8 +1733,8 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
 
 @media only screen and (max-width: 600px) {
     .home .content {
-        max-width: 90%; /* Par exemple, utilisez un pourcentage pour la largeur maximale */
-        margin-left: 5px; /* Ajustement de la marge si nécessaire */
+        max-width: 60%; /* Par exemple, utilisez un pourcentage pour la largeur maximale */
+        margin-left: 3px; /* Ajustement de la marge si nécessaire */
     }
 }
 
