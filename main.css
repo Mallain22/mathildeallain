@@ -69,6 +69,12 @@ table{border-collapse:collapse;border-spacing:0}
    ========================================================================== */
 * {box-sizing: border-box}
 
+@media only screen and (max-width: 600px) {
+  h1 {
+    letter-spacing: 0.5px; /* Espacement spécifique pour les appareils mobiles */
+  }
+}
+
 @font-face {
   font-family: 'Bebas';
   src: url('BebasNeue-Regular.woff') format('woff'),
