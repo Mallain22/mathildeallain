@@ -176,7 +176,7 @@ main{
 }  
 .home .content{
   padding: 35px 20px;
-max-width: 10px;
+max-width: 30%;
 }
 .home .content > div{
   z-index: 1;
