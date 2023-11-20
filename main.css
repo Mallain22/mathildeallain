@@ -1788,11 +1788,12 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
   }
   .content{
     padding: 35px 15px;
-margin-left: 20px;
   }
   .home .content{
     padding: 35px 35px;
+margin-left: 20px;
   }
+
   .home .mega {
     font-size: 2rem;
     letter-spacing: 0rem;
