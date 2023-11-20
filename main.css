@@ -176,7 +176,9 @@ main{
 }  
 .home .content{
   padding: 35px 20px;
-max-width: -60%;
+ max-width: 500px; /* Spécifiez la largeur maximale souhaitée */
+    margin: 0 auto; /* Centre le contenu horizontalement */
+text-align: left;
 }
 .home .content > div{
   z-index: 1;
