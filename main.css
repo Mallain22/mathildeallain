@@ -1798,7 +1798,7 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
 
 @media only screen and (max-width: 600px) {
   h1 {
-    letter-spacing: 1px !important ; /* Espacement spécifique pour les appareils mobiles */
+    letter-spacing: 7px !important ; /* Espacement spécifique pour les appareils mobiles */
   }
 }
 
