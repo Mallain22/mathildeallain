@@ -178,7 +178,7 @@ main{
    padding: 35px 20px;
    max-width: 600px; /* Spécifiez la largeur maximale souhaitée */
 position: absolute; /* Position absolue pour l'élément .content */
-    left: 70px;
+    left: 100px;
 }
 .home .content > div{
   z-index: 1;
