@@ -1789,7 +1789,7 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
   }
   .home .mega {
     font-size: 2rem;
-    letter-spacing: 2em;
+    letter-spacing: 1em;
   }
   .entry-meta span{
     border-right: none;
@@ -1797,16 +1797,6 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
 }
 
 
-@media only screen and (max-width: 600px) {
-  h1 {
-    letter-spacing: 2px !important ; /* Espacement spécifique pour les appareils mobiles */
-  }
-}
 
-@media only screen and (max-width: 600px) {
-  .mega {
-    letter-spacing: 2px !important ; /* Espacement spécifique pour les appareils mobiles */
-  }
-}
 
 
