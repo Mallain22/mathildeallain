@@ -1608,7 +1608,7 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
   }
   .home .content{
     padding: 35px 40px;
-overflow: hidden;
+max-width: 30%;
 
   }
   .home .content, .home{
@@ -1752,6 +1752,8 @@ overflow: hidden;
   }
   .home .content{
     padding: 35px 30px;
+max-width: 30%;
+
 
   }
   .page:first-child header{
@@ -1798,6 +1800,8 @@ overflow: hidden;
   }
   .home .content{
     padding: 35px 15px;
+max-width: 30%;
+
 
   }
 
