@@ -1607,8 +1607,10 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
 
   }
   .home .content{
-    padding: 60px 0px;
+    padding: 35px 0px;
 max-width: 70%;
+ margin-top: 100px;
+
 
   }
   .home .content, .home{
@@ -1751,11 +1753,12 @@ max-width: 70%;
 
   }
   .home .content{
-    padding: 60px 0px;
+    padding: 35px 0px;
 max-width: 70%;
-
+ margin-top: 100px;
 
   }
+
   .page:first-child header{
     width: 55px;
   }
@@ -1799,9 +1802,9 @@ max-width: 70%;
 
   }
   .home .content{
-    padding: 60px 0px;
+    padding: 35px 0px;
 max-width: 70%;
-
+ margin-top: 100px;
 
   }
 
