@@ -1604,7 +1604,6 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
     display: block !important;
     height: auto;
     padding: 35px 40px;
-overflow: hidden;
 
   }
   .home .content{
@@ -1749,12 +1748,10 @@ overflow: hidden;
   }
   .content{
     padding: 35px 30px;
-overflow: hidden;
 
   }
   .home .content{
     padding: 35px 30px;
-overflow: hidden;
 
   }
   .page:first-child header{
@@ -1796,12 +1793,12 @@ overflow: hidden;
   }
   .content{
     padding: 35px 15px;
-overflow: hidden;
+
 
   }
   .home .content{
     padding: 35px 15px;
-overflow: hidden;
+
   }
 
   .home .mega {
@@ -1813,12 +1810,6 @@ overflow: hidden;
   }
 }
 
-@media only screen and (max-width:960px){
-  html{
-    overflow-y: auto;
-    overflow-x: hidden; /* Ajout de cette ligne pour éviter le défilement horizontal */
-  }
-  /* ... (autres styles) ... */
-}
+
 
 
