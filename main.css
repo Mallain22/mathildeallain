@@ -1607,8 +1607,8 @@ input:focus, textarea:focus, input:focus-visible, textarea:focus-visible {
 
   }
   .home .content{
-    padding: 35px 40px;
-max-width: 30%;
+    padding: 35px 20px;
+max-width: 70%;
 
   }
   .home .content, .home{
@@ -1751,8 +1751,8 @@ max-width: 30%;
 
   }
   .home .content{
-    padding: 35px 30px;
-max-width: 30%;
+    padding: 35px 10px;
+max-width: 70%;
 
 
   }
@@ -1799,8 +1799,8 @@ max-width: 30%;
 
   }
   .home .content{
-    padding: 35px 15px;
-max-width: 30%;
+    padding: 35px 10px;
+max-width: 70%;
 
 
   }
