@@ -1813,7 +1813,13 @@ overflow: hidden;
   }
 }
 
-
+@media only screen and (max-width:960px){
+  html{
+    overflow-y: auto;
+    overflow-x: hidden; /* Ajout de cette ligne pour éviter le défilement horizontal */
+  }
+  /* ... (autres styles) ... */
+}
 
 
 
