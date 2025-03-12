@@ -276,7 +276,7 @@ $(document).ready(function() {
    		Homepage Text Ticker
    	   ========================================================================== */
     $('.write').typed({
-        strings: ["créative", "à l'écoute", "déterminée","UX UI Designer","impatiente de collaborer avec vous","experte en marketing et communication",],
+        strings: ["créative", "à l'écoute","UX UI Designer","impatiente de collaborer avec vous",],
         typeSpeed: 50,
         backSpeed: 5,
         loop:true,
