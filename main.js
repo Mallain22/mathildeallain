@@ -540,23 +540,5 @@ $(document).ready(function() {
 	}
 });
 
-document.querySelectorAll('.open-modal').forEach(btn => {
-  btn.addEventListener('click', function() {
-    const modal = btn.closest('li').querySelector('.modal');
-    modal.style.display = 'block';
-  });
-});
 
-document.querySelectorAll('.close-modal').forEach(span => {
-  span.addEventListener('click', function() {
-    span.closest('.modal').style.display = 'none';
-  });
-});
-
-// Fermer au clic en dehors
-window.addEventListener('click', function(e) {
-  if (e.target.classList.contains('modal')) {
-    e.target.style.display = 'none';
-  }
-});
 
