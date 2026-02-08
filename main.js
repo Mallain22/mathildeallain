@@ -562,3 +562,24 @@ window.addEventListener('click', e => {
     e.target.style.display = 'none';
   }
 });
+
+<script>
+  // Scroll fluide pour les liens internes
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if(target){
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+
+  // Boutons "Revenir en haut"
+  document.querySelectorAll('.back-to-top').forEach(button => {
+    button.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+</script>
+
