@@ -563,38 +563,6 @@ window.addEventListener('click', e => {
   }
 });
 
-<script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
 
-  // Sécurité : si les vignettes existent
-  const items = document.querySelectorAll(".popup-image");
-
-  items.forEach(item => {
-    item.addEventListener("click", function () {
-      const targetId = this.getAttribute("data-target");
-      if (!targetId) return;
-
-      const target = document.getElementById(targetId);
-      if (!target) return;
-
-      target.scrollIntoView({ behavior: "smooth" });
-    });
-  });
-
-  // Sécurité : si les boutons existent
-  const buttons = document.querySelectorAll(".back-to-top");
-
-  buttons.forEach(btn => {
-    btn.addEventListener("click", function () {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    });
-  });
-
-});
-</script>
 
 
