@@ -540,27 +540,25 @@ $(document).ready(function() {
 	}
 });
 
-// Sélection de tous les boutons pour ouvrir les modales
+// Ouvrir la modale correspondante
 document.querySelectorAll('.open-modal').forEach(btn => {
-  btn.addEventListener('click', function() {
-    const modal = btn.closest('li').querySelector('.modal');
-    modal.style.display = 'block';
+  btn.addEventListener('click', () => {
+    const targetId = btn.dataset.target;
+    const modal = document.getElementById(targetId);
+    if(modal) modal.style.display = 'block';
   });
 });
 
-// Fermer les modales au clic sur la croix
+// Fermer la modale via la croix
 document.querySelectorAll('.close-modal').forEach(span => {
-  span.addEventListener('click', function() {
+  span.addEventListener('click', () => {
     span.closest('.modal').style.display = 'none';
   });
 });
 
-// Fermer la modale si clic à l'extérieur du contenu
-window.addEventListener('click', function(e) {
-  if (e.target.classList.contains('modal')) {
+// Fermer la modale si clic en dehors du contenu
+window.addEventListener('click', e => {
+  if(e.target.classList.contains('modal')) {
     e.target.style.display = 'none';
   }
 });
-
-
-
