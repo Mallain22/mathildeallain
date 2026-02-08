@@ -505,15 +505,14 @@
             <ul class="portfolio-container">
               
                     <!-- Projet Fizzy Fruits -->
-              <li class="popup-image" data-groups='["all","image"]'>
-                <figure class="imghvr-shutter-in-out-diag-1">
-                  <img src="vignettefizzyfruits.png">
-                  <figcaption>
-                    <div data-value="Fizzy Fruits | Site web">Fizzy Fruits | Site web</div>
-                    <a href="#detail-fizzyfruits"></a>
-                  </figcaption>
-                </figure>
-              </li>
+   <li class="popup-image" data-groups='["all","image"]' data-target="detail-fizzyfruits">
+  <figure class="imghvr-shutter-in-out-diag-1">
+    <img src="vignettefizzyfruits.png" alt="Fizzy Fruits">
+    <figcaption>
+      <div data-value="Fizzy Fruits | Site web">Fizzy Fruits | Site web</div>
+    </figcaption>
+  </figure>
+</li>
 
 
               <li class="popup-image" data-groups='["all","image"]'>
@@ -592,12 +591,12 @@
             <div id="portfolio-details">
 
   <!-- Détail projet Fizzy Fruits -->
-  <div class="project-detail" id="detail-fizzyfruits">
-    <h3>Fizzy Fruits | Site web</h3>
-    <img src="fizzyfruitsgif.gif" alt="Fizzy Fruits">
-    <p>Description du projet Fizzy Fruits...</p>
-    <button class="back-to-top">Revenir en haut de page</button>
-  </div>
+<div id="detail-fizzyfruits" class="project-detail">
+  <h3>Fizzy Fruits | Site web</h3>
+  <img src="fizzyfruitsgif.gif" alt="Fizzy Fruits">
+  <p>Description du projet...</p>
+  <button class="back-to-top">Revenir en haut de page</button>
+</div>
 
   <!-- Détail projet Wav Festival Posts Réseaux sociaux -->
   <div class="project-detail" id="detail-wavsocial">
