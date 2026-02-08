@@ -564,12 +564,13 @@ window.addEventListener('click', e => {
 });
 
 <script>
-  // Scroll fluide pour les liens internes
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if(target){
+<script>
+  // Quand on clique sur une vignette
+  document.querySelectorAll('.popup-image').forEach(item => {
+    item.addEventListener('click', () => {
+      const targetId = item.getAttribute('data-target');
+      const target = document.getElementById(targetId);
+      if (target) {
         target.scrollIntoView({ behavior: 'smooth' });
       }
     });
@@ -582,4 +583,5 @@ window.addEventListener('click', e => {
     });
   });
 </script>
+
 
