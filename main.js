@@ -570,4 +570,25 @@ $('.back-to-top').on('click', function(e){
     $('html, body').animate({scrollTop: 0}, 500);
 });
 
+// Sélection du bouton
+const backToTopButton = document.getElementById("backToTop");
+
+// Afficher le bouton après un certain scroll
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+});
+
+// Scroll fluide vers le haut
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+
 
